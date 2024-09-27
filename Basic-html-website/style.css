@@ -1,0 +1,95 @@
+/* body {
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+}
+
+.project {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.work {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Education {
+
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.commentbox {
+    border: 2px solid black;
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+} */
+
+body {
+    border: 2px solid black;
+    margin: 2;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-self: center;
+}
+
+.project, .work, .education {
+    width: 30%;
+    border: 2px solid black;
+    padding: 0;
+}
+
+
+.commentbox {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Optional: To make it stand out more */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-style: italic;
+}
